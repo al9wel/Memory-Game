@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- main style -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- fontawosme -->
+        <link rel="stylesheet" href="css/all.min.css">
+            <!-- google fonts -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <title>Memory Game</title>
+</head>
+<body>
+    <div class="splash">
+        <i class="fas fa-angle-double-down fa-2x"></i>
+        <span id="splash-button">Start The Game</span>
+    </div>
+    <div class="center">
+        <div class="info">
+            <div class="name">
+            <span>Memory Game</span>
+            </div>
+            <div class="try">
+                Wrong Try : <span>5</span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cards">
+                <div class="card" data-shape="square">
+                        <div class="face front"></div>
+                        <img class="face back" src="imgs/1.jpg" alt="">
+                </div>
+                <div class="card" data-shape="square">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/1.jpg" alt="">
+                </div>
+                <div class="card" data-shape="circle">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/2.jpg" alt="">
+                </div>
+                <div class="card" data-shape="circle">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/2.jpg" alt="">
+                </div>
+                <div class="card" data-shape="stare">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/3.jpg" alt="">
+                </div>
+                <div class="card" data-shape="stare">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/3.jpg" alt="">
+                </div>
+                <div class="card" data-shape="triangle">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/4.jpg" alt="">
+                </div>
+                <div class="card" data-shape="triangle">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/4.jpg" alt="">
+                </div>  
+                <div class="card" data-shape="heart">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/5.jpg" alt="">
+                </div>
+                <div class="card" data-shape="heart">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/5.jpg" alt="">
+                </div>
+                <div class="card" data-shape="dimond">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/6.jpg" alt="">
+                </div>
+                <div class="card" data-shape="dimond">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/6.jpg" alt="">
+                </div>
+                <div class="card" data-shape="pentagon">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/7.jpg" alt="">
+                </div>
+                <div class="card" data-shape="pentagon">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/7.jpg" alt="">
+                </div>
+                <div class="card" data-shape="star">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/8.jpg" alt="">
+                </div>
+                <div class="card" data-shape="star">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/8.jpg" alt="">
+                </div>
+                <div class="card" data-shape="light">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/9.jpg" alt="">
+                </div>
+                <div class="card" data-shape="light">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/9.jpg" alt="">
+                </div>  
+                <div class="card" data-shape="rectangle">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/10.jpg" alt="">
+                </div>
+                <div class="card" data-shape="rectangle">
+                    <div class="face front"></div>
+                    <img class="face back" src="imgs/10.jpg" alt="">
+                </div>                              
+            </div>
+        </div>
+        <div>
+            <button id="reset" class="reset-button">Reset</button>
+        </div>
+    </div>
+    <audio id="succses" src="audio/succses.mp3" preload="auto"></audio>
+    <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
+    <audio id="win" src="audio/win.mp3" preload="auto"></audio>
+    <audio id="background" loop preload="auto" src="audio/background.mp3"></audio>
+    <script src="js/main.js"></script>
+</body>
+</html>
